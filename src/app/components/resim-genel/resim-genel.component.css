@@ -1,0 +1,8 @@
+.slider-item
+{
+    width: auto;
+    height: 900px;
+    background-image: url('src/assets/images/bg_1.jpg');
+    margin-bottom: 50px;
+    position: relative;
+}
