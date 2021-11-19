@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';//bu module toolbar için gereken ayarları yapar.
 import {MatIconModule} from '@angular/material/icon';//bu module iconlar için gereken ayarları yapar.
 import {MatButtonModule} from '@angular/material/button';//bu module buttonlar için gereken ayarları yapar.
-
+import { RouterModule } from '@angular/router';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -39,7 +39,7 @@ import { ManagementComponent } from './components/management/management.componen
 import { ManagementProfilComponent } from './components/management/management-profil/management-profil.component';
 import { ManagementProfilSettingsComponent } from './components/management/management-profil-settings/management-profil-settings.component';
 import { ManagementStatisticsComponent } from './components/management/management-statistics/management-statistics.component';
-
+import { ManagementContentCardsModule } from './components/management/management-content-cards/management-content-cards.module';
 
 @NgModule({
   declarations: [
@@ -72,6 +72,8 @@ import { ManagementStatisticsComponent } from './components/management/managemen
     ManagementProfilSettingsComponent,
     ManagementStatisticsComponent
    
+    
+   
    
   ],
   imports: [
@@ -84,7 +86,9 @@ import { ManagementStatisticsComponent } from './components/management/managemen
     MatRadioModule,
     MatTabsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    ManagementContentCardsModule,
+    RouterModule
  
    
     //MatCheckboxModule

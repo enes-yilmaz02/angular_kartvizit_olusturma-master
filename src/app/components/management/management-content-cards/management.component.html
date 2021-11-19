@@ -1,0 +1,27 @@
+
+<div class="sidebar-wrapper">
+<mdb-card>
+  <!--Card image-->
+  <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg" alt="Card image cap"></mdb-card-img>
+  <!--Card content-->
+  <mdb-card-body>
+
+    <!--Title-->
+    <mdb-card-title>
+      <h4>{{menuItem.title}}</h4>
+    </mdb-card-title>
+
+   
+
+    <a href="" class="{{menuItem.class}}" mdbBtn color="primary" mdbWavesEffect>{{title}}</a>
+  </mdb-card-body>
+</mdb-card>
+    <ul class="nav">
+        <li *ngFor="let menuItem of menuItems" routerLinkActive="active" class="{{menuItem.class}}">
+            <a [routerLink]="[menuItem.path]">
+                <i class="nc-icon {{menuItem.icon}}"></i>
+                <p>{{menuItem.title}}</p>
+            </a>
+        </li>
+    </ul>
+</div>
