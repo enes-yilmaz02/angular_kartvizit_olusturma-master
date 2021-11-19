@@ -31,7 +31,6 @@ import { AboutCardsComponent } from './components/about-cards/about-cards.compon
 import { ManagementDashboardComponent } from './components/management-dashboard/management-dashboard.component';
 import { ManagementCardsComponent } from './components/management-cards/management-cards.component';
 import { ManagementTablesComponent } from './components/management-tables/management-tables.component';
-import { ManagementAdminsettingsComponent } from './components/management-adminsettings/management-adminsettings.component';
 import { MainUpdateComponent } from './components/main-update/main-update.component';
 import { HomeManagementComponent } from './components/home-management/home-management.component';
 import { HomeUserComponent } from './components/home-user/home-user.component';
@@ -39,6 +38,7 @@ import { HomeRegisterComponent } from './components/home-register/home-register.
 import { ManagementComponent } from './components/management/management.component';
 import { ManagementProfilComponent } from './components/management-profil/management-profil.component';
 import { ManagementProfilSettingsComponent } from './components/management-profil-settings/management-profil-settings.component';
+import { ManagementStatisticsComponent } from './components/management-statistics/management-statistics.component';
 
 
 @NgModule({
@@ -63,14 +63,14 @@ import { ManagementProfilSettingsComponent } from './components/management-profi
     ManagementDashboardComponent,
     ManagementCardsComponent,
     ManagementTablesComponent,
-    ManagementAdminsettingsComponent,
     MainUpdateComponent,
     HomeManagementComponent,
     HomeUserComponent,
     HomeRegisterComponent,
     ManagementComponent,
     ManagementProfilComponent,
-    ManagementProfilSettingsComponent
+    ManagementProfilSettingsComponent,
+    ManagementStatisticsComponent
    
    
   ],
