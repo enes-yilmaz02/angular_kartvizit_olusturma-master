@@ -38,6 +38,7 @@ import { HomeUserComponent } from './components/home-user/home-user.component';
 import { HomeRegisterComponent } from './components/home-register/home-register.component';
 import { ManagementComponent } from './components/management/management.component';
 import { ManagementProfilComponent } from './components/management-profil/management-profil.component';
+import { ManagementProfilSettingsComponent } from './components/management-profil-settings/management-profil-settings.component';
 
 
 @NgModule({
@@ -68,7 +69,8 @@ import { ManagementProfilComponent } from './components/management-profil/manage
     HomeUserComponent,
     HomeRegisterComponent,
     ManagementComponent,
-    ManagementProfilComponent
+    ManagementProfilComponent,
+    ManagementProfilSettingsComponent
    
    
   ],
