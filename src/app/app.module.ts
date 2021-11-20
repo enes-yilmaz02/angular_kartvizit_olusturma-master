@@ -39,7 +39,7 @@ import { ManagementComponent } from './components/management/management.componen
 import { ManagementProfilComponent } from './components/management/management-profil/management-profil.component';
 import { ManagementProfilSettingsComponent } from './components/management/management-profil-settings/management-profil-settings.component';
 import { ManagementStatisticsComponent } from './components/management/management-statistics/management-statistics.component';
-import { ManagementContentCardsModule } from './components/management/management-content-cards/management-content-cards.module';
+import { ManagementContentCardComponent } from './components/management/management-content-card/management-content-card.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +70,8 @@ import { ManagementContentCardsModule } from './components/management/management
     ManagementComponent,
     ManagementProfilComponent,
     ManagementProfilSettingsComponent,
-    ManagementStatisticsComponent
+    ManagementStatisticsComponent,
+    ManagementContentCardComponent
    
     
    
@@ -87,7 +88,6 @@ import { ManagementContentCardsModule } from './components/management/management
     MatTabsModule,
     MatFormFieldModule,
     MatInputModule,
-    ManagementContentCardsModule,
     RouterModule
  
    

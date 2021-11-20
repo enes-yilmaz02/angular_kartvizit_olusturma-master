@@ -1,45 +1,46 @@
 
 
-<mat-tab-group animationDuration="1000ms" >
-<main>
-<div class="container">
+    <mat-tab-group animationDuration="1000ms" >
+   <main>
+   <div class="container">
 
-  <mat-tab  class="nav-info" label="Profil" >
+   <mat-tab  class="nav-info" label="Profil" >
   
    <app-management-profil></app-management-profil>
-  </mat-tab>
+   </mat-tab>
 
-  <mat-tab  class="nav-uye" label="Üyeler">
+   <mat-tab  class="nav-uye" label="Üyeler">
    <app-management-cards></app-management-cards>
    <app-management-cards></app-management-cards>
    <app-management-cards></app-management-cards>
- 
-  </mat-tab>
+  
+   </mat-tab>
    
-  <mat-tab  class="nav-yetki "  label="Yetkilendirme">
+   <mat-tab  class="nav-yetki "  label="Yetkilendirme">
    <app-management-tables></app-management-tables>
-      <app-management-tables></app-management-tables>
-  </mat-tab>
+      
+   </mat-tab>
   
    <mat-tab  class="nav-admin "  label="Admin Ayarları">
    <app-management-profil-settings> </app-management-profil-settings>
-  </mat-tab>
+   </mat-tab>
 
    <mat-tab  class="nav-icerik "  label="İçerikler">
-   <management-cmp></management-cmp>
-  </mat-tab>
+   <app-management-content-card></app-management-content-card>
+ 
+   </mat-tab>
 
 
    <mat-tab  class="nav-istatik "  label="İstatistikler">
    <app-management-statistics></app-management-statistics>
-  </mat-tab>
+   </mat-tab>
 
 
    <mat-tab  class="nav-out "  label="Oturumu Kapat">
    <app-home-user></app-home-user>
-  </mat-tab>
+   </mat-tab>
 
-</div>
+   </div>
 
-</main>
+   </main>
 
